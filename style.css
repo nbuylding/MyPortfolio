@@ -1,0 +1,426 @@
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #040D1A;
+    color: white;
+}
+
+/* switch mode  */
+.light {
+    background-color: rgb(187, 196, 243);
+    color: #040D1A;
+}
+
+/* nav */
+.nav-bar {
+    display: flex;
+    padding: 1rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+}
+
+.nav-bar a:hover {
+    background-color: #6BA2EE8c;
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-bar {
+        padding: 0;
+    }
+
+    .nav-bar a{
+        padding: 1rem;
+    }
+}
+
+/* home */
+.home-text {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.home-text h3 {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.home-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.home-text h4 {
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.home-text a {
+    color: #6BA2EE8c;
+}
+
+.home-page {
+    display: flex;
+}
+
+.home-page img {
+    width: auto;
+    height: 500px;
+    justify-items: flex-end;
+    opacity: 0.8;
+    border-radius: 20%;
+    box-shadow: 10px 10px 15px black;
+}
+
+@media only screen and (max-width: 425px) {
+    .home-page {
+        display: block;
+    }
+}
+
+/* about */
+.about-text {
+    margin: 2rem;
+    padding: 2rem ;
+}
+
+.about-text h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.about-text h4 {
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.about-text h4 a {
+    color: #6BA2EE8c;
+    font-weight: 400;
+}
+
+.about-page {
+    display: flex;
+    justify-content: center;
+}
+
+.about-page img {
+    width: auto;
+    height: 500px;
+    padding: 5rem;
+    opacity: 0.8;
+    border-radius: 20%;
+}
+
+@media only screen and (max-width: 425px){
+    .about-page {
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .about-page {
+        display: block;
+    }
+}
+
+/* contact */
+footer {
+    margin: 2rem;
+    padding: 2rem ;
+}
+
+footer h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+footer h4 {
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+footer h4 a {
+    text-decoration: none;
+    color: #6BA2EE8c;
+    font-weight: 400;
+}
+
+form label{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+form input, textarea {
+    background-color: #28446B;
+    color: #ffffff8c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    width: 650px;
+    border:10px solid #28446B;
+}
+
+form #submit-button {
+    padding: 0.65rem;
+    margin: 1rem;
+    color: #040D1A;
+    width: 100px;
+    background-color: white;
+    border-color: white;
+    font-weight: 400;
+}
+
+form #submit-button:hover {
+    padding: 0.65rem;
+    margin: 1rem;
+    color: black;
+    width: 100px;
+    background-color: #6BA2EE;
+    border-color: #6BA2EE;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 425px) {
+    form input, textarea {
+        width: 100%;
+    }
+}
+
+/* work */
+
+.site-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C5DB840;
+}
+
+.site-1 img {
+    width: auto;
+    height: 300px;
+    padding: 5rem;
+    border-radius: 25%;
+}
+
+.site-1 h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.site-1 h4 {
+    font-size: 1.5rem;
+}
+
+.site-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C5DB826;
+}
+
+.site-2 img {
+    width: auto;
+    height: 300px;
+    padding: 5rem;
+    border-radius: 25%;
+}
+
+.site-2 h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.site-2 h4 {
+    font-size: 1.5rem;
+}
+
+.site-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C5DB80d;
+}
+
+.site-3 img {
+    width: auto;
+    height: 300px;
+    padding: 5rem;
+    border-radius: 25%;
+}
+
+.site-3 h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.site-3 h4 {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .site-1 {
+        display: block;
+        background-color: #040D1A;
+    }
+
+    .site-1 h2, h4 {
+        text-align: center;
+    }
+
+    .site-1 img {
+        width: 400px;
+        height: auto;
+        justify-self: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-2 {
+        display: block;
+        background-color: #040D1A;
+    }
+
+    .site-2 h2, h4 {
+        text-align: center;
+    }
+
+    .site-2 img {
+        width: 400px;
+        height: auto;
+        justify-self: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-3 {
+        display: block;
+        background-color: #040D1A;
+    }
+
+    .site-3 h2, h4 {
+        text-align: center;
+    }
+
+    .site-3 img {
+        width: 400px;
+        height: auto;
+        justify-self: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* skills */
+div h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-icons img {
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .skills-icons img {
+        padding: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skills-icons img {
+        padding: 1rem;
+    }
+}
+
+/* writing */
+.writing-page {
+    display: flex;
+}
+
+#book-cover {
+    width: auto;
+    height: 600px;
+    padding: 5rem;
+    opacity: 0.8;
+}
+
+.iewh-synopsis h4 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+
+.iewh-synopsis button {
+    margin: 0 5rem;
+    padding: 1rem 2rem 1rem;
+}
+
+button a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 1rem;
+    color: #040D1A;
+}
+
+button:hover {
+    background-color: #6BA2EE;
+}
+
+@media only screen and (max-width: 425px) {
+    .writing-page {
+        display: block;
+    }
+
+    #book-cover {
+        padding: 0;
+    }
+
+    .iewh-synopsis button {
+        padding: 0.5rem;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .writing-page {
+        display: block;
+    }
+
+    #book-cover {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .iewh-synopsis button {
+        padding: 0.5rem;
+        align-self: center;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+        <title>Portfolio: NB</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="./work.html#work">Work</a>
+                <a href="./work.html#writing">Writing</a>
+                <a href="#contact">Contact</a>
+                <button onclick="switchMode()">Switch Mode</button>
+            </nav>
+        </header>
+
+        <!-- Home page -->
+        <section class="home-page" id="home">
+            <article class="home-text">
+                <h3>Hi, I'm Natasha.</h3>
+                <h1>Author & Web Designer.</h1>
+                <h4>A multi-facited artist with both words and code. A debut author at just 26 years old, and designer behind the website you're scrolling through right now.</h4>
+                <a href="#">Learn More.</a>
+            </article>
+            <img src="./images/20200905_121244final.JPG" alt="image of natasha" class="home-portrait">
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- About page -->
+        <section id="about" class="about-page">
+            <article class="about-text">
+                <h2>I Build Value Through Art.</h2>
+                <h4>Here’s a bit about myself, if anyone’s interested! I was a late reader. I never even considered picking up a book until I was about 12 years old, and then BAM, my obsession with books began. I now have a collection of over 200 books (not including eBooks).
+
+                My favorite genres are Fantasy, Science Fiction, Adventure, Romance, and Paranormal/Supernatural. I’m obsessed with Greek Mythology and have plans to write a book series based on it, but for now I’ll just be reading about the topic as much as possible.
+                    
+                Between my husband and I, we have three cats. A black cat named Esuna (after a spell in the Final Fantasy video game franchise). A calico named Erza (after a character in the Fairy Tail anime series). And lastly a tuxedo cat named Tyrael (the angel from the Diablo video game franchise).
+                    
+                I’ll choose green tea or matcha over coffee any day of the week! I love playing video games (but have a hard time finishing them because I always want to play ten different games at once).
+                    
+                I’d say I’m a pretty quirky person, looking at life in a different way than the norm. But that’s how the creative’s brain works, right?
+                <br>
+                <br>
+                Interested? <a href="#contact">Let's talk!</a>.
+                </h4>
+            </article>
+            <img src="./images/B320A193-B246-4134-88C7-664F7D2D1A0E.JPG" alt="image of natasha">
+        </section>
+        <!-- contact form footer -->
+        <footer id="contact">
+            <h2>Let's talk.</h2>
+            <h4>Get in touch via the form below, or email me directly at <a href="#">n.buylding@gmail.com</a>.</h4>
+            <form action="./index.html" method="post" class="form-box">
+                <label for="fullname">Name:</label>
+                <br>
+                <input id="fullname" name="fullname" type="text" value="Name">
+                <br>
+                <label for="email">Email Address:</label>
+                <br>
+                <input id="email" name="email" type="text" value="Email Address">
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" type="text" rows="4" cols="30">Enter your message</textarea>
+                <br>
+                <input type="submit" value="Submit" id="submit-button">
+            </form>
+        </footer>
+
+        <script src="main.js">
+        </script>
+    </body>
+</html>
